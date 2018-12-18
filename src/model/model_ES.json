@@ -1,0 +1,46 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "tipos de pizza",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "cancel",
+            "cancela"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "para",
+            "stop"
+          ]
+        },
+        {
+          "name": "PizzaIntent",
+          "slots": [],
+          "samples": [
+            "dime una pizza",
+            "dime un tipo de pizza",
+            "dime una pizza famosa",
+            "dime una pizza para comer hoy",
+            "dime una pizza para cenar hoy",
+            "dime una pizza que pueda cocinar",
+            "ayúdame a elegir una pizza",
+            "ayúdame a elegir una pizza por mí",
+            "elige una pizza",
+            "elige una pizza por mí",
+            "dime otra pizza",
+            "dime otra"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}
